@@ -7,6 +7,10 @@ settings:
 importers:
 
   .:
+    dependencies:
+      journyl:
+        specifier: 'file:'
+        version: 'file:'
     devDependencies:
       '@tauri-apps/cli':
         specifier: ^2
@@ -79,6 +83,9 @@ packages:
     engines: {node: '>= 10'}
     hasBin: true
 
+  'journyl@file:':
+    resolution: {directory: '', type: directory}
+
 snapshots:
 
   '@tauri-apps/cli-darwin-arm64@2.1.0':
@@ -123,3 +130,5 @@ snapshots:
       '@tauri-apps/cli-win32-arm64-msvc': 2.1.0
       '@tauri-apps/cli-win32-ia32-msvc': 2.1.0
       '@tauri-apps/cli-win32-x64-msvc': 2.1.0
+
+  'journyl@file:': {}
