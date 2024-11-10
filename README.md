@@ -1,2 +1,1 @@
-# journyl
-tennis journal
+# journyl desktop
